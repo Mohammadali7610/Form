@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keyword"
+      content="form,form practicing,form filling,online form filling"
+    />
+    <meta
+      name="discription"
+      content="If you wan't to practicing form filling try this web side"
+    />
+    <meta name="author" content="ALi" />
+    <meta property="og:image" content="" />
+    <title>Form practice</title>
+    <!--External css-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--link for bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="container-fluid main-div">
+          <h1 class="text-center top-heading">Student scolarship form</h1>
+          <div class="form-div">
+            <div class="row justify-content-evenly text-align-center">
+              <div class="col-3 text-end">
+            <h4 class="mt-3">Student name</h4>
+          </div>
+          <div class="col-9">
+            <div class="row justify-content-start">
+              <div class="col-4">
+                <label for="first-name" class="form-label text-white"
+                  ></label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="first-name"
+                  aria-describedby="Student-name"
+                  placeholder="First name"
+                />
+              </div>
+              <div class="col-4">
+                <label for="last-name" class="form-label text-white"
+                  ></label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="last-name"
+                  aria-describedby="Student-name"
+                  placeholder="First name"
+                />
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="row justify-content-evenly text-align-center">
+            <div class="col-3 text-end">
+          <h4 class="mt-3">Father name</h4>
+        </div>
+        <div class="col-9">
+          <div class="row justify-content-start">
+            <div class="col-4">
+              <label for="first-name" class="form-label text-white"
+                ></label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="first-name"
+                aria-describedby="father-name"
+                placeholder="First name"
+              />
+            </div>
+            <div class="col-4">
+              <label for="last-name" class="form-label text-white"
+                ></label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="last-name"
+                aria-describedby="Student-name"
+                placeholder="First name"
+              />
+            </div>
+          </div>
+        </div>
+        </div>
+          <div class="row">
+            <div class="col-3 text-end">
+            <h4 class="mt-3">Date of birth</h4>
+          </div>
+          <div class="col-9">
+            <div class="row justify-content-start">
+              <div class="col-7">
+                <label for="DOB" class="form-label text-white"
+                ></label
+              >
+              <input
+                type="date"
+                class="form-control"
+                id="DOB"
+                aria-describedby="Student-name"
+              />
+              </div>
+          </div>
+        </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-3 text-end">
+          <h4 class="">Gender</h4>
+        </div>
+        <div class="col-9">
+          <div class="row">
+            <div class="col-6">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Radios" id="Radios1" value="option1" >
+                <label class="form-check-label text-white" for="Radios1">
+                  MALE
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Radios" id="Radios2" value="option2">
+                <label class="form-check-label text-white" for="Radios2">
+                  FEMALE
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Radios" id="Radios3" value="option3">
+                <label class="form-check-label text-white" for="Radios3">
+                  OTHER
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-3 text-end">
+          <h4>Email</h4>
+        </div>
+        <div class="col-9">
+            <div class="row justify-content-evenly">
+              <div class="col-10">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp " placeholder="Enter your email address">
+                <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-3 text-end">
+            <h4 >Attach your id card</h4>
+          </div>
+          <div class="col-9">
+            <div class="row justify-content-evenly">
+              <div class="col-10">
+                <input type="file" class="form-control" id="exampleInputEmail1" aria-describedby="file " placeholder="Enter your email address">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-3 text-end">
+            <h4>Personal statement</h4>
+          </div>
+          <div class="col-9">
+            <div class="row justify-content-evenly">
+              <div class="col-10">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+              </div>
+        </div>
+      </div>
+      </div>
+      <div class="row mt-5 pb-5 me-2">
+          <div class="row justify-content-end">
+            <div class="col-3 text-end mr-5 me-5" >
+              <input type="button" class="form-control btn-dark hover " id="exampleInputEmail1" aria-describedby="file " value="Submit">
+            </div>
+          </div>
+      </div>
+    </div>
+      </section>
+    </main>
+  </body>
+</html>
